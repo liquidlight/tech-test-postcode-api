@@ -2,20 +2,7 @@
 
 You are tasked with creating a postcode lookup tool which lists attractions ordered by distance from the postcode entered.
 
-We expect this to take around 2–3 hours
-
-- [Liquid Light Tech Test](#liquid-light-tech-test)
-	- [Brief](#brief)
-		- [Technical](#technical)
-		- [Design](#design)
-	- [Considerations](#considerations)
-		- [We are looking for](#we-are-looking-for)
-		- [Notes](#notes)
-	- [Setup](#setup)
-		- [System requirements](#system-requirements)
-		- [Getting Started](#getting-started)
-	- [Submission](#submission)
-
+We expect this to take around 2–3 hours.
 
 ## Brief
 

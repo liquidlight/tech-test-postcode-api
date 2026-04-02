@@ -43,6 +43,7 @@ The following mockup has been provided
 
 ### Notes
 
+- If you use AI assistance for any part of the solution, please note which parts and how it was used
 - Don't fret over the PHP file locations, the contents of the files are more important.
 - You only need to support the latest browsers with CSS and JavaScript
 

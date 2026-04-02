@@ -35,7 +35,7 @@ The following mockup has been provided
 ### We are looking for
 
 - Clean, reusable, object-orientated code
-- A clean and responsive CSS solution with custom properties and other modern
+- A clean and responsive CSS solution with custom properties and other modern CSS features
 - Handling of missing/incomplete data
 - Good git practices (e.g. atomic commits, work on a branch)
 - JavaScript should be used somewhere in the solution — how and where is up to you.

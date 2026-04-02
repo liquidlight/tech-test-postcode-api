@@ -56,9 +56,10 @@ The following mockup has been provided
 
 ### Getting Started
 
-1. Fork the repository at https://github.com/liquidlight/tech-test-postcode-api — we recommend making your fork **private**
-2. Clone your fork locally and create a branch to work on
-3. Start the local server from the project root:
+1. Clone the repository
+	- SSH `git clone git@github.com:liquidlight/tech-test-postcode-api.git`
+	- HTTP: `git clone https://github.com/liquidlight/tech-test-postcode-api.git`
+2. Start the local server from the project root:
 
 ```bash
 docker run -p 8080:80 -v .:/var/www/html php:8.3-apache
@@ -70,5 +71,9 @@ docker run -p 8080:80 -v .:/var/www/html php:8.3-apache
 
 When you are happy with your work:
 
-1. Open a merge request on your own fork (from your working branch into your `main`)
-2. Either share the link with us, or if you kept the repository private, invite `liquidlightuk` as a member so we can review it
+1. Push to a private repository to your preferred git hosting provider
+	- Run `git remote rm origin` to remove the Liquid Light repo - you can then add your own remote
+2. Open a merge request on your own repo (from your working branch into your `main`)
+3. Invite Liquid Light to view
+	- Github username: `liquidlightuk`
+	- Gitlab username: `liquidlight`

@@ -39,6 +39,7 @@ The following mockup has been provided
 - Handling of missing/incomplete data
 - Good git practices (e.g. atomic commits, work on a branch)
 - JavaScript should be used somewhere in the solution — how and where is up to you.
+- Semantic and accessible HTML
 
 ### Notes
 

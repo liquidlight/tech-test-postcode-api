@@ -1,0 +1,93 @@
+:root {
+	--base: #1a1a1a;
+
+	--primary: #40916c;
+	--primaryDark: #1b4332;
+
+	--neutralLight: #f5f5f0;
+	--neutralLightest: #fff;
+
+	--maxWidth: 67rem;
+	--gutter: 2rem;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+	background: var(--neutralLight);
+	color: var(--base);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* ── Header ── */
+header {
+	background: var(--primaryDark);
+	color: var(--neutralLightest);
+	padding: 0 var(--gutter);
+	box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.header-inner {
+	max-width: var(--maxWidth);
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 4rem;
+}
+
+.logo {
+	font-size: 1.4rem;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.logo-icon {
+	width: 1.75rem;
+	height: 1.75rem;
+	background: var(--primary);
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.9rem;
+}
+
+/* ── Main content ── */
+main {
+	flex: 1;
+	max-width: var(--maxWidth);
+	margin: 0 auto;
+	padding: var(--gutter);
+	width: 100%;
+}
+
+/* ── Footer ── */
+footer {
+	background: var(--primaryDark);
+	color: #d8f3dc;
+	text-align: center;
+	font-size: 0.85rem;
+}
+
+.footer-inner {
+	max-width: var(--maxWidth);
+	margin: 0 auto;
+	display: flex;
+	padding: var(--gutter);
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}

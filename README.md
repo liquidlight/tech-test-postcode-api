@@ -36,7 +36,8 @@ The following mockup has been provided
 
 - Clean, reusable, object-orientated code
 - A clean and responsive CSS solution with custom properties and other modern CSS features
-- Handling of missing/incomplete data
+- Handling of missing/incomplete data along
+- Considerations around performance and API potential API rate limiting
 - Good git practices (e.g. atomic commits, work on a branch)
 - JavaScript should be used somewhere in the solution — how and where is up to you.
 - Semantic and accessible HTML

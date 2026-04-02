@@ -10,6 +10,7 @@ We expect this to take around 2–3 hours
 		- [Design](#design)
 	- [Considerations](#considerations)
 		- [We are looking for](#we-are-looking-for)
+		- [Notes](#notes)
 	- [Setup](#setup)
 		- [System requirements](#system-requirements)
 		- [Getting Started](#getting-started)
@@ -47,11 +48,15 @@ The following mockup has been provided
 ### We are looking for
 
 - Clean, reusable, object-orientated code
+- A clean and responsive CSS solution with custom properties and other modern
 - Handling of missing/incomplete data
 - Good git practices (e.g. atomic commits, work on a branch)
 - JavaScript should be used somewhere in the solution — how and where is up to you.
 
-**Note**: Don't fret over the PHP file locations, the contents of the files are more important.
+### Notes
+
+- Don't fret over the PHP file locations, the contents of the files are more important.
+- You only need to support the latest browsers with CSS and JavaScript
 
 ## Setup
 

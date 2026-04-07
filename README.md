@@ -74,6 +74,11 @@ When you are happy with your work:
 1. Push to a private repository to your preferred git hosting provider
 	- Run `git remote rm origin` to remove the Liquid Light repo - you can then add your own remote
 2. Open a merge request on your own repo (from your working branch into your `main`)
-3. Invite Liquid Light to view
+	- Please specify the following 	
+		- Approximate time taken
+  		- Where/how AI was used (if at all)
+		- Noteworthy features/details/screenshots
+		- (Optional) future enhancements  
+4. Invite Liquid Light to view
 	- Github username: `liquidlightuk`
 	- Gitlab username: `liquidlight`
